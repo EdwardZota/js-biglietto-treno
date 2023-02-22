@@ -10,20 +10,20 @@
 const km = parseInt(prompt('Quanti chilometri dovete percorrere?'));
 console.log(km);
 
-const età = parseInt(prompt('Inserisca gentilmente la propria età'));
-console.log(età);
+const eta = parseInt(prompt('Inserisca gentilmente la propria età'));
+console.log(eta);
 
 const priceKm = 0.21 ;
 
 let priceTot = km * priceKm ;
 
-if (età < 18) {
-    document.getElementById('titlediscount').innerHTML = `Dato che sei minorenne ti facciamo uno sconto del 20%`
-    priceTot = (priceTot - (priceTot * 0.2)).toFixed(2)
+if (eta < 18) {
+    document.getElementById('titlediscount').innerHTML = `Dato che sei minorenne ti facciamo uno sconto del 20%`;
+    priceTot = (priceTot - (priceTot * 0.2)).toFixed(2);
 
-} else if (età >= 65){
-    document.getElementById('titlediscount').innerHTML = `Dato che sei minorenne ti facciamo uno sconto del 40%`
-    priceTot = (priceTot - (priceTot * 0.4)).toFixed(2)
+} else if (eta >= 65){
+    document.getElementById('titlediscount').innerHTML = `Dato che sei minorenne ti facciamo uno sconto del 40%`;
+    priceTot = (priceTot - (priceTot * 0.4)).toFixed(2);
 }
 
-document.getElementById('priceTot').innerHTML = `Il tuo biglietto costa: ${priceTot} euro`
+document.getElementById('priceTot').innerHTML = `Il tuo biglietto costa: ${priceTot} euro`;
