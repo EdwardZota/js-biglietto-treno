@@ -1,0 +1,13 @@
+body{
+    padding-top: 30px;
+    text-align: center;
+    background-image: url(../img/pexels-sascha-hormel-970763.jpg);
+    background-size: cover;
+}
+
+div{
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px 30%;
+    padding: 20px;
+}
